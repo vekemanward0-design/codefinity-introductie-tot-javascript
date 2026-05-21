@@ -1,0 +1,8 @@
+// Declare constant for the monthly price
+const MONTHLY_PRICE = 9.99;
+
+let userDevices = 3;
+let totalCost = userDevices * MONTHLY_PRICE;
+
+console.log("User's Devices:", userDevices);
+console.log("Total Subscription Cost: $", totalCost);
