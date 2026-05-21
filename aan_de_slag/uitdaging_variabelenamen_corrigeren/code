@@ -1,0 +1,7 @@
+let users = 150;
+let username = "John";
+let isAdmin = true;
+
+console.log("Total Users:", users);
+console.log("User Name:", username);
+console.log("Is Admin:", isAdmin);
