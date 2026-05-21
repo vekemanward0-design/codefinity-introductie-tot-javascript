@@ -1,0 +1,5 @@
+let firstName = "Alice";
+let lastName = "johnson";
+let age = 25;
+
+console.log("User:", "Alice", "Johnson", "is", "25", "years old.");
