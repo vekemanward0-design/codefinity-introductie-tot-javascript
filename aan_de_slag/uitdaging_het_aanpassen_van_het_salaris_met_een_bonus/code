@@ -1,5 +1,7 @@
 const HOURLY_RATE = 25.00;
 let hoursWorked = 164;
+const BONUS = 2.5;
 
 let totalPay = hoursWorked * HOURLY_RATE;
+totalPay *= BONUS;
 console.log("The calculated total payment is:", totalPay);
