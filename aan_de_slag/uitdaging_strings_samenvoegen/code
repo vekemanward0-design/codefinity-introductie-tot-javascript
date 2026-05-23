@@ -1,0 +1,3 @@
+let username = "Alice"
+let welcomeMessage = "Hello, " + username + "! Welcome to our website.";
+console.log(welcomeMessage);
