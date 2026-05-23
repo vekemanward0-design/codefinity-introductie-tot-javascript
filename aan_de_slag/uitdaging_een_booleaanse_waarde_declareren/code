@@ -1,0 +1,9 @@
+// Declare a boolean variable under this line
+let isAvailable = true;
+
+// This code is just a demo, you will learn about conditional statements in the next section
+if(isAvailable) {
+    console.log("The product is available.");
+} else {
+    console.log("The product is out of stock");
+}
