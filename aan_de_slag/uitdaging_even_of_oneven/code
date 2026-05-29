@@ -1,0 +1,11 @@
+let num = 21;
+
+// even check
+if(num % 2 === 0){
+console.log("The number is even")
+}
+
+// odd check
+if (num % 2 !== 0){
+    console.log("The number is odd");
+}
