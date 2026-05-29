@@ -1,0 +1,5 @@
+function messageFunc() {
+  console.log("This is a message from the function");
+}
+
+messageFunc();
