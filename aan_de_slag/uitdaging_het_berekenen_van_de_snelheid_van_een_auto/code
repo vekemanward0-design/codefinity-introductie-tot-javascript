@@ -1,1 +1,9 @@
-console.log(100/5); // 20 (meter per seconde)
+function calcSpeed() {
+  let distance = 1000;
+  let timeTaken = 120;
+  let speed = distance / timeTaken;
+  console.log("Speed:", speed);
+}
+
+calcSpeed();
+calcSpeed();
