@@ -1,0 +1,8 @@
+let hasAccessCard = false;
+let hasSpecialPass = true;
+
+if (hasAccessCard || hasSpecialPass) {
+  console.log("Access granted.");
+} else {
+  console.log("Access denied.");
+}
