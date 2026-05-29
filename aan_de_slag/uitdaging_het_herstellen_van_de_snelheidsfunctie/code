@@ -1,0 +1,7 @@
+function calcSpeed(distance, timeTaken) {
+    let speed = distance / timeTaken;
+    console.log("Speed:", speed);
+}
+
+calcSpeed(1000, 120);
+calcSpeed(1200, 160);
