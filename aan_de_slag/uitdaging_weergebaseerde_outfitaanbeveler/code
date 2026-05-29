@@ -1,0 +1,13 @@
+let weather = "rainy";
+
+if (weather === "sunny") {
+    console.log("Wear sunglasses and a t-shirt!");
+}
+
+if (weather === "rainy") {
+    console.log("Take an umbrella and wear a raincoat!");
+}
+
+if (weather === "cold") {
+    console.log("Wear a warm jacket and a scarf!");
+}
