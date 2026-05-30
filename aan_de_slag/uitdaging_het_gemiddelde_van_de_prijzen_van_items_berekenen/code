@@ -1,0 +1,8 @@
+let prices = [349, 799, 1299, 199, 549, 999, 1599, 699, 429, 299];
+let totalPrice = 0;
+
+for (let i = 0; i < prices.length; i++) {
+  totalPrice += prices[i];
+}
+
+console.log("Average price:", totalPrice / prices.length);
