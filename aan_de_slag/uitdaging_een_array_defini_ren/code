@@ -1,0 +1,4 @@
+let favoriteFoods = [ "Pizza", "Sushi", "Burger" ];
+
+// Testing
+console.log(favoriteFoods);
