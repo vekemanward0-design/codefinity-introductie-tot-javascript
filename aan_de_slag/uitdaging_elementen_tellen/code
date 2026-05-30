@@ -1,0 +1,9 @@
+let fruitBasket = ["Apple", "Banana", "Orange", "Mango", "Grapes", "Pineapple"];
+
+let numberOfFruits = fruitBasket.length;
+
+if (numberOfFruits <= 3) {
+  console.log("We have a small fruit basket with", numberOfFruits, "fruits!");
+} else {
+  console.log("We have a big fruit basket with", numberOfFruits, "fruits!");
+}
