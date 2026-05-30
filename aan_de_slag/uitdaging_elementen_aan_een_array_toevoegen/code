@@ -1,0 +1,5 @@
+let shoppingList = ["Milk", "Eggs", "Bread"];
+console.log("Before:", shoppingList);
+
+shoppingList.push("Butter", "Cheese");
+console.log("After:", shoppingList);
