@@ -1,0 +1,11 @@
+let a = 0;
+let b = 1;
+let numTerms = 10;
+
+while (numTerms > 0) {
+  console.log(a);
+  let nextTerm = a + b;
+  a = b;
+  b = nextTerm;
+  numTerms--;
+}
