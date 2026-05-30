@@ -1,0 +1,19 @@
+let animalsInZoo = ["Lion", "Tiger", "Elephant", "Giraffe", "Panda"];
+
+if (animalsInZoo.includes("Lion")) {
+  console.log("Yay! We have a Lion in our zoo!");
+} else {
+  console.log("Oh no! No Lion in our zoo today.");
+}
+
+if (animalsInZoo.includes("Zebra")) {
+  console.log("Yay! We have a Zebra in our zoo!");
+} else {
+  console.log("Oh no! No Zebra in our zoo today.");
+}
+
+if (animalsInZoo.includes("Panda")) {
+  console.log("Yay! We have a Panda in our zoo!");
+} else {
+  console.log("Oh no! No Panda in our zoo today.");
+}
