@@ -1,0 +1,15 @@
+function generateEmailResponse(
+  name = "Valued Customer", 
+  issue = "a general inquiry", 
+  responseTime = "24 hours"
+) {
+  console.log("Dear " + name + ",");
+  console.log("");
+  console.log("Thank you for reaching out regarding " + issue + ".");
+  console.log("Our support team will review your request and get back to you within " + responseTime + ".");
+  console.log("");
+  console.log("Best regards,");
+  console.log("Customer Support Team");
+}
+
+generateEmailResponse();
