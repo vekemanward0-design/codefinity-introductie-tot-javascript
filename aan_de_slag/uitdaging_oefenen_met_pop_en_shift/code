@@ -1,0 +1,8 @@
+let items = ["Apple", "Banana", "Orange", "Grape", "Mango"];
+console.log("Original Array:", items);
+
+items.pop();
+console.log("After pop:", items);
+
+items.shift();
+console.log("After shift:", items);
